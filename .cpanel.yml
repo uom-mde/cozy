@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/johnmccr/public_html/omekas/themes/qing
+    - /bin/cp * $DEPLOYPATH

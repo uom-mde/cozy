@@ -1,13 +1,11 @@
-# Cozy
-## Copyright
-Cozy is Copyright © 2016-present Corporation for Digital Scholarship, Vienna, Virginia, USA http://digitalscholar.org
+# CARLA
 
-The Corporation for Digital Scholarship distributes the Omeka source code
-under the GNU General Public License, version 3 (GPLv3). The full text
-of this license is given in the license file.
+Theme to be used for the CARLA exhibition, based on Cozy, including:
 
-The Omeka name is a registered trademark of the Corporation for Digital Scholarship.
+1) Multiple language selector in header, and
+2) Rules to prevent Universal Viewer opening for videos/YouTube
+3) Rule to allow prevent OpenSeaDragon loading for IIIF files in 'Media Embed'. 
 
-Third-party copyright in this distribution is noted where applicable.
+Optimised for use with the BlockPlus module.
 
-All rights not expressly granted are reserved.
+Forked from the Languages theme, but removes Plyr video integration.
