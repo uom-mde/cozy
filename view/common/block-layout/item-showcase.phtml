@@ -11,7 +11,6 @@
                if ($media && $mediaRenderer !== 'iiif') :
                    echo $media->render([
                    'thumbnailType' => $thumbnailType,
-                   'link' => $link,
                ]);
                elseif ($media) :
                    echo $item->linkRaw($this->thumbnail($media, $this->thumbnailType));
