@@ -1,0 +1,238 @@
+/*End YouTube Container*/
+
+
+/*Language Selector*/
+
+
+/*Exhibition image on front page*/
+
+.hero {
+    background: url(/files/asset/19883e67093549b992154c82ae4e2d13996feca4.jpg);
+    height: 618px;
+}
+
+@media (max-width:1279px) {
+    .hero {
+        background: url(/files/asset/668ace5a90c2da94bd8e632285a352905343d140.jpg);
+        height: 0;
+        padding-top: 32.18%;
+    }
+}
+
+@media (max-width:1024px) {
+    .hero {
+        background: url(/files/asset/19883e67093549b992154c82ae4e2d13996feca4.jpg);
+        height: 0;
+        padding-top: 32.23%;
+    }
+}
+
+@media (max-width:800px) {
+    .hero {
+        background: url(/files/asset/5a63eefbd2574bf571699dbac2f2f5202888b629.jpg);
+        height: 0;
+        padding-top: 32.23%;
+    }
+}
+
+@media (max-width:599px) {
+    .hero {
+        background: url(/files/asset/72a19eb8e2f1a696bf924be4528b660c6dc4c7c6.jpg);
+        height: 0;
+        padding-top: 52.92%;
+    }
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/*Front Page Grid*/
+
+
+/*End Front Page Grid*/
+
+
+/*Change Exhibition Buttons Colour*/
+
+
+/*End Change Exhibition Buttons Colour*/
+
+
+/*End background image*/
+
+
+/* Change header background to white*/
+
+
+/*Mobile Menu Button*/
+
+
+/*End Header*/
+
+
+/*Item Showcase - Multiple items - align date at bottom */
+
+
+/*Nav Menu*/
+
+
+/*End*/
+
+
+/*Remove borders from Item Showcase*/
+
+
+/*End Intro Text*/
+
+
+/*Item Sets alignment*/
+
+
+/*Align metadata in centre of page*/
+
+
+/*End Image Gallery Blocks*/
+
+
+/*#content .content {
+        background: #000;
+        }*/
+
+
+/*Search Page Container*/
+
+
+/*Remove Nested Navigation Links [sub-menu]*/
+
+
+/*Margins given 100% content width*/
+
+
+/*Hero Images Frame for Front Page*/
+
+.hero-frame {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Hero Images for other pages*/
+
+.hero-qing-empire {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/965a0c582b4aed8c744218220ae64d6a1c3f7677.jpg);
+}
+
+.hero-knowledge-exchange {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/f6e8340b9eb643b92962b07fe0c37ef79454172c.jpg);
+}
+
+.hero-end-glory {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/2825acfb833a6e7c69125a878eee264f721d7673.jpg);
+}
+
+.hero-multi {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/fa29b6672d5d3e9fc9e47fa471e195205195f2f8.jpg);
+}
+
+.hero-non-chinese {
+    /*background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/4fa226f376decf0ed2868b4037ec3f6aa97ee2e7.jpg);*/
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/ec44a4690f6cd7227d31f4571d5446475df8efc0.jpg);
+}
+
+.hero-imperial-expansion {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/c1ef271781e88c5cc509d744c8b6987d5aaaa418.jpg);
+}
+
+.hero-legacies {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/25b1ba22faa5b0077ebeb39c1ee6afb029b1a37c.jpg);
+}
+
+.hero-qing-empire-457 {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/ff4b933614b2c47c82bbf8433f2c701afe98b5f8.jpg);
+}
+
+
+/*Mobile hero images*/
+
+@media only screen and (max-width: 1024px) {
+    .hero-legacies {
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/2c3032b61df9370e29e470f3508ffbfbb60e0803.jpg);
+    }
+    .hero-imperial-expansion {
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/c5d0e42827e2f69b2115e773d193b46e39ff43e1.jpg);
+    }
+    .hero-end-glory {
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url(/files/asset/69f6cbfd02ba2c0c942b69cfe5d56a19aae3ec04.jpg);
+    }
+}
+
+
+/*End Other Pages*/
+
+
+/*Framework for hero images (non text in image)*/
+
+.page-hero {
+    pointer-events: none;
+    width: 100%;
+    z-index: 9999;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+
+/*@media only screen and (min-width: 767px) {
+    .page-hero {
+    background-attachment: fixed;
+    }
+    }*/
+
+.page-hero .page-hero-inner {
+    pointer-events: inherit;
+    max-width: 1141px;
+    color: green;
+    box-sizing: border-box;
+    padding: 0 0 40px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.page-hero .page-hero-inner h2 {
+    color: #333;
+    font-size: 52px;
+    line-height: 1.2em;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+
+
+/*Changed from 767px*/
+
+
+/*CARLA Specific - Remove metadata from Item Showcase01/04/22*/
+
+
+/*04/04/22 Additions*/
+
+
+/*Revise Universal Viewer*/
+
+
+/*Remove margin from below media embed items*/
+
+
+/*BlockPlus*/

@@ -1,0 +1,157 @@
+    pre {
+        overflow-x: scroll
+    }
+
+    header {
+        max-width: 1200px;
+
+    .banner.contained {
+        max-width: 1200px;
+
+    footer {
+        max-width: 1200px;
+
+    #content {
+        max-width: 1200px;
+
+    .site-page-pagination {
+        clear: both;
+        margin: 0 auto;
+        padding: 24px;
+        color: #fff;
+        max-width: 1200px
+
+******************
+/*Remove from this rule*/
+    .resource.show #content>h2+h3 {
+vertical-align: middle;
+}
+
+**********************
+
+
+   .with-sidebar {
+        width: 65%;
+        float: left
+    }
+
+
+.resource.show .media-list, .resource.show .property {
+        margin-bottom: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        padding-right: 24px;
+        width: 100%
+    }
+
+    .resource.show .media-list:last-child, .resource.show .property:last-child {
+        margin-bottom: 0
+    }
+
+    .media-list dt, .property dt {
+        font-weight: bold
+    }
+
+    .media-list dt, .property dt, .media-list .value, .property .value {
+        width: 100%;
+        margin: 0 0 6px
+    }
+
+    .item-with-metadata .property dt, .item-with-metadata .media-list dt, .full-width .media-list dt, .full-width .property dt, #linked-resources>dt {
+        width: 25%;
+        text-align: right;
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+        padding-right: 12px;
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .resource.show .property .field-term {
+        font-size: 12px;
+        display: inline-block
+    }
+
+    .item-with-metadata .property .value, .full-width .property .value, .full-width .media-list dt~.resource-link {
+        width: 75%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: 0
+    }
+
+    .item-with-metadata .property .value:not(:first-of-type), .full-width .property .value:not(:first-of-type), .full-width .media-list dt~.resource-link:not(:first-of-type) {
+        border-top: 1px solid #eee;
+        padding-top: 5px;
+        margin-top: 6px
+    }
+
+    .resource.show .property .language {
+        background-color: rgba(0, 0, 0, .08);
+        padding: 0 6px;
+        margin-right: 6px
+    }
+
+
+    .resource.show #itemfiles.media-list {
+        width: 100%;
+        margin-bottom: 24px
+    }
+
+    .resource.show .media-embeds, .resource.show .media-list .resource-link:not(:last-child) {
+        margin-bottom: 24px
+
+    .media.resource.show .property dt {
+        width: 20%
+    }
+
+    .item-set-items {
+        clear: both
+    }
+
+    .browse-controls>* {
+        margin-bottom: 12px
+    }
+
+
+.resource-list .resource .resource-link {
+        display: inline
+    }
+
+    .resource.show .sidebar.right {
+        width: 35%;
+        float: right;
+        padding-left: 24px
+    }
+
+    .resource.show .sidebar.right .media-list, .resource.show .sidebar.right .media-list dt, .resource.show .sidebar.right .media-list .resource-link, .resource.show .sidebar.right .property dt, .resource.show .sidebar.right .property .value {
+        width: 100%;
+        text-align: left;
+        padding-right: 0
+    }
+
+    .resource.show .sidebar.right .media-list dt {
+        margin-bottom: 6px
+    }
+
+    .resource.show .sidebar.right .media-list .resource-link {
+        align-items: flex-start;
+        word-break: break-word
+    }
+
+    .resource.show .sidebar.right .media-render * {
+        max-width: 100%;
+        height: auto
+    }
+
+******************************
+Replace this:
+.item.resource.show .property h4, .item.resource.show .property .values, #linked-resources, #linked-resources>h4, #linked-resources .linked-resource {
+
+with
+
+.item.resource.show .property dt, .item.resource.show .property .value, #linked-resources, #linked-resources>dt, #linked-resources .linked-resource {
+
+
