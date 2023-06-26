@@ -1,5 +1,21 @@
 /* CSS Document -  Library website - page footer CSS */
 
+/*Address*/
+address {
+    font-style: inherit;
+}
+
+address {
+    color: #aaa;
+}
+
+address a {
+    color: #FFCC33;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
 
 /* Layout Grid  */
 
@@ -203,7 +219,7 @@
 
 .footerLogos {
     float: left;
-    width: 280px;
+    max-width: 280px;
 }
 
 .footerLogos img {
@@ -213,7 +229,7 @@
 }
 
 .footerLogos p {
-    color: white;
+    color: #aaa;
     line-height: 1.3em;
     font-size: 1.1em;
 }
@@ -353,7 +369,7 @@
         width: auto!important;
     }
     .footerLogos p {
-        color: white;
+        color: #aaa;
         line-height: 1.3em;
         font-size: 1.1em;
         clear: both;
