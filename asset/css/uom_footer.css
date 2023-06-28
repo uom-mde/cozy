@@ -1,19 +1,15 @@
 /* CSS Document -  Library website - page footer CSS */
 
-/*Address*/
-address {
-    font-style: inherit;
-}
-
-address {
+/*Get in touch*/
+.contact p {
     color: #aaa;
 }
 
-address a {
+.contact a {
     color: #FFCC33;
 }
 
-address a:hover {
+.contact a:hover {
     text-decoration: underline;
 }
 
