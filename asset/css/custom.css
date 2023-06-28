@@ -1,0 +1,2114 @@
+/*Cookie Bar*/
+.cb-enable,
+.cb-policy {
+    margin-top: .5rem
+}
+
+#cookie-bar a.cb-enable {
+    background: #609
+}
+
+#cookie-bar a.cb-enable:hover {
+    background: #406
+}
+
+#cookie-bar a.cb-policy {
+    background: #fc3;
+    color: #0a0a0a
+}
+
+#cookie-bar a.cb-policy:hover {
+    background: #ffbf00
+}
+
+/*Underline links in metadata*/
+.values a:link {
+text-decoration: underline;
+}
+
+/*Search Results - margin*/
+form.sorting {
+margin-top: 1em;
+}
+
+/*Nest h1 within Banner*/
+
+header {
+	max-width: unset;
+	padding: 0;
+}
+
+header .header_top {
+	width: 1140px;
+	display: flex;
+	margin: 0 auto;
+	padding: 12px 24px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+header nav>ul>li {
+	border-bottom: unset;
+	padding-bottom: unset;
+	margin-bottom: unset;
+}
+
+#menu ul.navigation li {
+	border-bottom: 1px solid #cacaca;
+	padding: 12px 12px;
+	margin-bottom: 12px;
+}
+
+header h1 {
+	margin: unset;
+	font-size: revert;
+	line-height: initial;
+}
+
+.intro-image img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+        
+    /*Change text colour on Cookie Bsr*/
+#cookie-bar p {
+	color: #fff!important;
+}
+    
+    /*Narrow introductory text within main container*/
+.introduction, .explore {
+	width: 100%;
+	padding: 2em 25%;
+}
+
+.introduction {
+	background-color: #ececed;
+}
+
+.explore {
+	background-color: #fff7ff;
+}
+
+.introduction p {
+	font-size: 1.1em;
+	line-height: 2.0;
+}
+
+.explore ul {
+	font-size: 1.1em;
+	line-height: 2.0;
+}
+
+.introduction .first p {
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.introduction a, .explore a {
+	text-decoration: underline;
+}
+
+.introduction h3, .explore h3 {
+    /*color: #991900;*/
+	font-size: 28px;
+}
+ 
+/*Style Item Showcase*/
+
+.top-level-metadata h3 {
+    text-transform: capitalize;
+}
+
+.top-level-metadata h3 a {
+    text-decoration: underline;
+}
+
+.top-level-metadata h3 a:hover {
+color: #79379D;
+}   
+
+    
+    /*Narrow Container for Item Show Pages*/
+.item.resource.show #content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#content .universal-viewer {
+	margin: 0 auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	width: 100%;
+}
+        
+    
+    /*Top Horizontal Header*/
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #6b2c91;
+	color: #fff;
+	width: 100%;
+	min-height: 70px;
+	padding: 0 25px;
+	flex-wrap: wrap;
+	order: 4;
+}
+
+.navbar ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin: 0;
+	padding: 6px;
+}
+
+.navbar h1 {
+	flex-basis: 25%;
+}
+
+.navbar li {
+	flex: 0 1 20%;
+	font-weight: 400;
+	display: inline-block;
+ /*whole li link*/;
+}
+
+.navbar li:hover {
+	background-color: #2c0142;
+}
+
+.navbar a {
+	color: #000;
+	display: block;
+}
+
+.navbar ul li a:hover {
+	color: yellow;
+}
+
+.navbar h1 a {
+	color: #fff;
+	transition-duration: 0.5s;
+	font-weight: 300;
+}
+
+.navbar h1 a:hover {
+	color: yellow;
+}
+
+.navbar ul li a {
+	color: #fff;
+	padding: 12px;
+}
+
+#top-menu {
+	flex-basis: 70%;
+}
+
+#top-menu ul.navigation li a {
+	font-size: 17px;
+}
+          
+    
+    /*End Top Horizontal Navbar*/
+    
+    
+.banner-logo {
+	width: 100%;
+}
+
+header .banner-logo picture {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+        
+    /*Universal Viewer on top of page*/
+    
+.universal-viewer-block {
+	display: block;
+}
+    
+    /*Universal Viewer Button*/
+.uv .btn-primary {
+	background-color: #6b2383 !important;
+	border-color: #cccccc !important;
+}
+
+.uv .btn-primary:hover {
+	background-color: #79379D !important;
+}
+    
+    /*Add flex to header*/
+    
+.university-logo img {
+	display: flex;
+	order: 0;
+}
+    
+        /*New H1 and University Logo*/
+        
+#title-container {
+	margin: 20px 0 0;
+	display: block;
+}
+
+#site-identifier {
+	display: inline-block;
+	width: 90%;
+	max-width: 1140px;
+	margin: auto;
+}
+
+img.university-logo {
+	width: 169px;
+	height: 70px;
+}
+
+.site-heading {
+	font-size: 22px;
+	color: #6B2C91;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: none;
+	padding: 0;
+	margin: 0 30px;
+	display: flex;
+	order: 1;
+	flex-grow: 3;
+	width: 25%;
+}
+
+.site-title h1 {
+	font-size: 22px;
+	color: #6B2C91;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: none;
+	padding: 0;
+}
+        
+        /*End new H1 and University Logo*/
+    
+.site-heading {
+	display: flex;
+	order: 1;
+}
+
+.site-heading p {
+	color: #6B2C91;
+}
+
+.full-screen-search {
+	display: none;
+}
+
+#oc-trigger {
+	display: flex;
+	order: 3;
+}
+        
+    /*Responsive Search Button*/
+    
+    
+header a.site-title {
+	color: #333333;
+}
+    
+    
+    /*Centre Header Image*/
+header .site-title img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+    /*End centre header image*/
+    
+    /*Universal Viewer Full Screen*/
+.centerPanel #content {
+	max-width: 100%;
+}
+        
+        /*Padding below Universal Viewer*/
+.universal-viewer {
+	margin-bottom: 24px;
+}    
+       
+        /*Home Page Image*/
+#home-image {
+	display: block;
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+       
+    
+    
+    /*Front Page Grid*/
+    
+figure:hover {
+	background-color: #6b2c91;
+}
+
+.sixcol.fullSizeUntilDesktop a:hover {
+	color: purple;
+}
+
+figcaption.botLeft a {
+	color: #333333;
+}
+
+p.description a {
+	color: #333333;
+}
+
+figure a:hover img {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	-moz-backface-visibility: hidden;
+}
+    /*End Front Page Grid*/  
+    
+    /*Highlight media item purple*/
+    
+.left .item.resource img {
+	margin-bottom: 0;
+}
+
+.item.resource img:hover {
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	-moz-backface-visibility: hidden;
+}
+    
+    /*.media-render a:hover {
+    background-color: #6b2c91;
+    } */
+    /*  End Highlight media item purple*/
+        
+        /*Fonts*/
+        
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	color: #1D1D1D;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: 300;
+	line-height: 1.2;
+           /*color: #FFFFFF;*/
+	color: #6b2383;
+	padding: 0.5em;
+            /*background-color: #6b2383;*/;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+.item-showcase h3 {
+	text-transform: capitalize;
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #343536;
+	line-height: 1.5;
+}
+
+.item-showcase p {
+	font-size: 1.1em;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.resource.show #content>h2+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.results>a:last-child {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a.advanced-search {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #6b2c91;
+}
+
+select {
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #ccc;
+}
+        
+        /*End Fonts*/
+        
+        /*Change Exhibition Buttons Colour*/
+.site-page-pagination {
+	text-align: center;
+}
+
+.site-page-pagination a {
+	background-color: #6b2c91;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 6px 15px;
+}
+
+.site-page-pagination a:hover {
+	background-color: #79379D  !important;
+}
+        
+        /*End Change Exhibition Buttons Colour*/
+        
+        /*End background image*/
+        
+        /* Change header background to white*/
+header:before {
+	background-color: #fff;
+}
+    
+    /*Mobile Menu Button*/
+#menu-button {
+	border: 1px solid #525355;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], input[type="date"], input[type="datetime-local"] {
+	font-family: 'Open Sans', sans-serif;
+}
+        
+        /*End Header*/
+        
+        
+        /*Turn Media Embed Text into div*/
+.media_embed_text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-basis: 40%;
+	padding: 0 2em;
+}
+
+.media_embed_text p {
+	font-size: 1.1em;
+	line-height: 1.8;
+}
+
+.media_embed_text h3 {
+	padding: 0.5em 0.5em 0.5em 0;
+	color: #6b2c91;
+	text-transform: capitalize;
+}
+
+.media_embed_text h3 :hover {
+	color: #79379D;
+}
+
+.media_embed_text h4 {
+	border-bottom: solid 1px #1f431f;
+	padding: 0.5em;
+}
+
+.media_embed_text .romaji {
+	font-style: italic;
+}
+
+.media_embed_text .date {
+	font-size: 1.1em;
+}
+
+.media_embed_text .reference {
+	font-weight: bold;
+}
+
+.left.file {
+	order: 0;
+}
+
+.right.file {
+	order: 1;
+}
+
+.file {
+	border-top: none;
+	border-bottom: none;
+}        
+            
+        /*Nav Menu*/
+        
+header nav a:link, header nav a:visited {
+	font-size: 1.4em;
+	line-height: 1.6em;
+}
+
+header nav {
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 0;
+}
+
+.oc-push.oc-menu-open .oc-push.oc-menu {
+	background-color: #fff;
+}
+         
+        
+        /*Background and font colour for quotations div*/
+.quotes {
+	background-color: floralwhite;
+	padding: 1em;
+}
+
+.quotes h2 {
+	color: #C72E2E;
+}
+        /*End*/
+        
+        /*Item Showcase and Resource Grid Thumbnail Size*/
+.item-showcase .resource.item:not(:only-child) img {
+	max-height: 25rem;
+}
+
+.resource-list.grid .resource:not(:only-child) img {
+	max-height: 25rem;
+}
+            
+    /*Remove borders from Item Showcase*/
+.item-showcase {
+	border-top: none;
+	border-bottom: none;
+}
+        
+        /*Intro text*/
+.intro-text {
+	width: 90%;
+	margin: auto;
+}
+
+.intro-text h1,
+        .intro-text h2,
+        .intro-text h3 {
+           /*color: #961f30;*/
+	color: #96531f;
+	padding: .5em;
+}
+
+.item-showcase h3 {
+	margin: 0 12px;
+}
+        /*End Intro Text*/
+        
+        /*Caption Text*/
+.caption-text {
+	font-size: 1.0em;
+}
+
+.caption-text p {
+	font-size: 1.0em;
+}
+        
+        /*Text under Item Showcase*/
+.item.resource .caption {
+	font-size: 1rem;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 1em 25%;
+}
+
+.item.resource .caption p {
+	line-height: 1.8;
+	font-size: 1.1em;
+}          
+        
+        /*Editing Header*/
+#banner {
+	width: 80%;
+	display: block;
+	padding: 1em;
+	margin: auto;
+}
+        
+        
+        /*Item Sets alignment*/
+.resource.show .property .values, .resource.show .property h4 ~ .value {
+	display: block;
+}
+    
+    /*Align metadata in centre of page*/
+.resource.show .property {
+	text-align: left;
+    /*float: unset;*/
+	width: 100%;
+	padding: 12px 20%;
+	margin-bottom: 12px;
+}
+
+.resource.show .property:last-child {
+	margin-bottom: 24px;
+}
+        
+        /* CSS Document -  Library website - page footer CSS */
+        /* Layout Grid  */
+        
+.row {
+	position: relative;
+	width: 90%;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.tripleVertPadding {
+	padding: 3em 0;
+}
+
+.threecol,  .fourcol,  .fourcolRigid,  .sixcol,  .eightcol {
+	margin-right: 3.8%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.threecol,  .fourcol {
+	width: 100%;
+}
+
+.fourcolRigid {
+	width: 30.8%;
+}
+
+.ie7 .fourcolRigid {
+	width: 30.6%;
+}
+
+.sixcol {
+	width: 100%;
+}
+
+.eightcol {
+	width: 100%;
+}
+
+.twelvecol {
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-bottom: 24px;
+}
+
+.lastAtMobile {
+	margin-right: 0px;
+}
+
+.halfSizeUntilLargeMobile {
+	width: 48.1%;
+}
+
+.fullSizeUntilLargeMobile {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.fullSizeUntilDesktop {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.fullSizeUntilLargeDesktop {
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.showAtFullDesktop {
+	display: none!important;
+}
+
+.colRight {
+	float: right;
+}
+
+.last {
+	margin-right: 0px!important;
+}
+
+.headerContainer {
+	position: relative;
+	margin: 0 auto;
+	background: white;
+	z-index: 1000;
+	width: 90%;
+	max-width: 1140px;
+}
+
+.headerContent {
+	width: 100%;
+	padding: 0;
+	background: white;
+}
+
+.mainLogo {
+	display: inline-block;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.mainLogo img {
+	width: 170px;
+	height: 71px;
+}
+
+.site-identifier {
+	display: block;
+	clear: both;
+ /* default small screen - switch to inline-block for larger screens */;
+}
+
+.site-identifier p, .site-identifier a, .site-identifier a:visited, .site-identifier a:hover {
+	font-size: 22px;
+	color: #6b2c91;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 22px;
+	text-decoration: none;
+	padding: 0;
+}
+                                                                    
+        /* Footer and Chat CSS additions - KB 30-10-2015 */
+        
+.eightcol {
+	margin-right: 3.8%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.eightcol img {
+	width: 213%;
+}
+
+.twelvecol {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.footerContainer {
+	background: #1d1d1d;
+	clear: both;
+}
+
+.footerContent {
+	overflow: hidden;
+	margin: 0;
+}
+        
+        /* Footer */
+footer {
+	max-width: 100%;
+	padding: 0;
+}
+
+.footerContainer h2 {
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: 100;
+	font-size: large;
+	padding: 0;
+	background-color: unset;
+}
+
+.footerContainer .fourcol.last {
+	margin: 2em 0 0;
+}
+
+.footerContainer .sixcol.last {
+	margin: 2em 0 0;
+}
+
+.footerContainer .tripleVertPadding {
+	padding-bottom: 1em;
+}
+
+.footerContainer li a {
+	font-size: 1em!important;
+	color: #aaa;
+}
+
+.footer-socialIcons li {
+	padding: 0!important;
+}
+
+.footer-socialIcons li a img {
+	padding-right: 10px;
+	width: auto!important;
+	vertical-align: inherit;
+}
+
+.footerLogos {
+	float: left;
+	width: 280px;
+}
+
+.footerLogos img {
+	display: inline;
+	margin: 0 20px 10px 0;
+	width: auto!important;
+}
+
+.footerLogos p {
+	color: white;
+	line-height: 1.3em;
+	font-size: 1.1em;
+}
+        
+        /* inline lists */
+                
+.inlineList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.inlineList li {
+	display: inline-block;
+	margin: 0;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 2em;
+	color: #aaa;
+	font-family: 'Open Sans';
+}
+
+.lt-ie8 .inlineList li {
+	zoom: 1;
+	display: inline;
+}
+
+.inlineList li a {
+	display: inline-block;
+/* padding: 5px; */
+	font-family: 'Open Sans';
+}
+
+.lt-ie8 .inlineList li a {
+	zoom: 1;
+	display: inline;
+}
+        
+        
+        /* Fixes for horrible bits of CSS I can't find in this file */		
+        @media screen and (max-width: 500px) {
+            /* Live chat off for mobile phones */
+            .uom_liveChat_container { display: none; }
+        }
+        
+        @media handheld and (max-width: 500px) {
+        
+            .mainLogo img 					{ width: 125px !important; height: auto; }
+            .mobile-menu-icon				{ display: block; float: right; margin: 0; width: 25px; height: auto;	position: relative; top: -0.25em; z-index: 3000; }
+            .mobile-menu-icon img 			{ vertical-align: top; display: block; padding: 14px; width: 25px !important; }
+        
+        }
+         @media screen and (min-width: 501px) {
+        
+        /* Library chat isn't suitable for small screens in it's present form */
+            /* Live chat off for mobile phones */
+            .uom_liveChat_container 		{ display: none; }
+        }
+         @media handheld and (min-width: 501px) {
+        /* Library chat isn't suitable for small screens in it's present form */
+            .uom_liveChat_container 		{ display: none; }
+        }
+         @media only screen and (min-width: 600px) {
+            .uom_liveChat_container 		{ display: block; }
+        }
+         @media only screen and (min-width: 600px) {
+        /*------------------*/
+        /* 		WIDTHS 		*/
+        /*------------------*/
+                    
+            /* Clear width overrides for "large mobile" */
+            .lastAtMobile 					{ margin-right: 3.8%; }
+            .halfSizeUntilLargeMobile 		{ width: auto; }
+            .fullSizeUntilLargeMobile 		{ margin-bottom: 0; }
+            
+            /* Restore widths to correct values */
+            .fourcol 						{ width: 30.8%; }
+            .ie7 .fourcol 					{ width: 30.6%; }
+            .sixcol 						{ width: 48.1%; }
+            .ie7 .sixcol 					{ width: 48%; }
+            .eightcol 						{ width: 65.4%; }
+            /*.footerContainer .eightcol 	{width:100%;}*/
+                        
+            /* Maintain width overrides for greater sizes */
+            .fullSizeUntilDesktop 			{ width: 100%!important; }
+            
+            /* Footer */
+            .footerLogos 					{ float: left; }
+            .footerLogos img 				{ display: inline; margin: 0 20px 10px 0; width: auto!important; }
+            .footerLogos p 					{color: white;line-height: 1.3em;font-size: 1.1em;clear: both;font-family: 'Open Sans';}
+            hr 								{ width: 100%; }
+            .footerContainer .fourcol.last 	{ margin: 0; padding: 0; border-top: 0; width: 30.8%; }
+        
+        }
+         @media only screen and (min-width: 700px) {
+        /*------------------*/
+        /* 		WIDTHS 		*/
+        /*------------------*/
+                        
+        /* Restore widths to correct values */
+            .site-identifier 					{ padding: 0 0 30px; }
+            .fourcol.fullSizeUntilDesktop 		{ width: 30.8%!important; }
+            .ie7 .fourcol.fullSizeUntilDesktop 	{ width: 30.6%!important; }
+            .sixcol.fullSizeUntilDesktop 		/* { width: 46.2%!important; }*/ { width: 48.1%!important; }
+            .ie7 .sixcol.fullSizeUntilDesktop 	{ width: 46%!important; }
+            .eightcol.fullSizeUntilDesktop 		{ width: 65.4%!important; }
+    
+    /*Remove margin*/
+    .sixcol:nth-child(even) {
+    margin-right: 0;
+    }
+            
+        /* Show Hide Sections */
+            .showAtDesktop 						{ display: block; }
+        
+        }
+         @media only screen and (min-width: 800px) {
+        
+        }
+         @media only screen and (min-width: 960px) {
+        /*------------------*/
+        /* 		WIDTHS 		*/
+        /*------------------*/		
+        
+        /* Restore widths to correct values */
+            .threecol.fullSizeUntilLargeDesktop 	{ width: 22.15%!important; }
+            .fourcol.fullSizeUntilLargeDesktop 		{ width: 30.8%!important; }
+            .ie7 .fourcol.fullSizeUntilLargeDesktop { width: 30.6%!important; }
+            .sixcol.fullSizeUntilLargeDesktop 		{ width: 48.1%!important; margin-bottom: 0; }
+            .ie7 .sixcol.fullSizeUntilLargeDesktop 	{ width: 48%!important; }
+            .footerContainer .eightcol 				{ width: 65.4%!important; }
+            .footerContainer .fourcol.last 			{ width: 30.8%!important; margin: 0; padding: 0; border-top: 0; }
+            .showAtFullDesktop 						{ display: block!important; }
+        
+            .mobile-menu-icon 						{ display: none; }
+            .site-identifier 						{ clear: none; margin: 22px 0 0 50px; padding: 0; display: inline-block; }
+        
+        }
+         @media only screen and (min-width: 1200px) {
+        }
+         @media only screen and (min-width: 1300px) {
+        }
+         @media only screen and (min-width: 1600px) {
+        }
+        /* End Footer and Chat CSS additions */	
+        
+        
+        /*Image Gallery Blocks*/
+        /* Float collapse fix */
+                .clearBoth						{clear:both;}
+                .clearfix:before,
+                .clearfix:after 					{content: " "; display: table;}
+                .clearfix:after 					{clear: both;}
+                .clearfix 						{*zoom: 1;}
+                .overflowHidden					        {overflow:hidden;}
+        
+        
+        /*Figure Caption*/
+        
+        figure {
+            display: block;
+            position: relative;
+           margin: initial;
+        }
+        
+        figure img {
+            display: block;
+            width: 100%;
+            /*height: auto;*/
+            height: 300px;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+        }
+        
+        a img {
+            border: 0;
+        }
+           
+        figcaption {
+            position: absolute;
+            bottom: -3px;
+            background: white;
+            z-index: 1000;
+            z-index: 2000;
+        }
+                
+        figcaption.botLeft {
+            left: -3px;
+            max-width: 70%;
+            padding: 10px 10px 6px 3px;
+        }
+            
+        .largeTitle {
+            margin: 0;
+            padding: 0;
+            font-size: 1.4em;
+            line-height: 1.4em;
+            color: black;
+            font-weight: 400;
+            background-color: revert;
+        }
+        
+        .description {
+            display: none;
+            margin: 0;
+            padding: 1em 0 0;
+            font-size: 1em;
+            line-height: 1.6em;
+        }
+        
+        /*.newsBlock a:hover span img, .slide a:hover span img, a:hover figure img {*/
+        figure img  a:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        }
+        
+        /*End Image Gallery Blocks*/
+    
+        /*Quotes on Image*/
+    .quote-image {
+        display: inline-block;
+        width: 20%;
+        float: left;
+     }
+     
+     .quote-text  { 
+        display: inline-block;
+        width: 75%;
+        float: right;
+        margin-left: 10px;
+        font-size: 1.3em;
+         background-color: #fff;
+         padding: 1.5em;
+        border-right: 3px solid #6b2c91;
+     }
+    
+    .university-logo img:hover, header .site-title img:hover {
+       opacity: 1 !important;
+    }
+    
+    button {
+    color: #000;
+    background: #fff;
+    }
+    
+    /*MDC Hero Image*/
+    
+    .front-page {    
+        pointer-events: none;
+        width: 100%;
+        z-index: 9999;
+        display: block;
+         background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/c69a2ab023857fa064c75ff15116668161cdde7b.jpg);
+        height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+           position: relative;
+       /*background-attachment: fixed; Parallax*/
+    }
+    
+    .front-page-inner {
+    pointer-events: inherit;
+        max-width: 1141px;
+        color: green;
+        box-sizing: border-box;
+        padding: 0 0 40px 20px;
+        position: absolute;
+       top: 100px;
+        left: 80px;
+    }
+    
+    /*Centre text?
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    */
+    
+    .front-page .front-page-inner h2 {
+    color:#333;
+    font-size: 52px;
+    line-height: 1.2em;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    }
+        
+    .front-page .front-page-inner li {
+    transition-duration: 0.5s;
+    display: block;
+    }
+    
+    .front-page .front-page-inner a {
+    pointer-events: auto;
+    padding: 15px 10px 15px 10px;
+    background-color: #6b2c91;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    }
+    
+    .front-page .front-page-inner a:after {
+    content: '>';
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 12px;
+    display: inline-block;
+    }
+    
+    .front-page .front-page-inner a:hover {
+    color: yellow;
+    background-color: #2c0142;
+    transition-duration: 0.5s;
+    }
+    
+    .front-page aside.mobile-blocker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 100;
+    display: none;
+    width: 0;
+    height: 0;
+    }    
+        
+    /*Universal Viewer Settings*/
+    .uv .centerPanel .content .viewer {
+    background-color: #000 !important;
+    }
+    
+    .mainPanel .centerPanel #content {
+    padding: 0;
+    }
+    
+    /*#content .content {
+    background: #000;
+    }*/
+    
+    /*Paragraph Text on Universal Viewer*/
+    .iiif-metadata-component .groups .group .items .item .value p {
+    color: #ffffff;
+    }
+    
+    /*Font colour on Universal Viewer*/
+    .item _project-_information .values .value p {
+    color: #ffffff;
+    }
+    
+    /*Change contrast on rights statement*/
+    .uv .centerPanel .content .attribution {
+    background: #343434!important;
+    }
+    
+    .uv .centerPanel .content .attribution .header .close {
+    opacity: 1;
+    }
+    
+    /*End Universal Viewer Settings*/
+    
+    /*Main Content Container Size*/
+    
+    #content {
+        /*background-color: #fff;*/
+        max-width: unset;
+        margin: 0 auto;
+        padding: 0 0 24px 0;;
+       }
+    
+    /*Page Two Heading*/
+    
+     .outside-world {
+       pointer-events: none;
+        width: 100%;
+        z-index: 9999;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/493c615cd87129a42e07e5fea528612489e893b7.jpg);
+        height: 600px;
+       background-position: center;
+        background-repeat: no-repeat;
+       /*background-attachment: fixed; Parallax*/
+        position: relative;
+        display: block;
+    }
+    
+    .outside-world  .front-page-inner {
+    pointer-events: inherit;
+        max-width: 1141px;
+        color: green;
+        box-sizing: border-box;
+        padding: 0 0 40px 20px;
+        position: absolute;
+    top: 100px;
+    left: 0;
+    }
+    
+    .front-page-inner .outside-world h2 {
+         color:#333;
+         font-size: 52px;
+         line-height: 1.2em;
+         font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+    }
+        
+    .outside-world h2 {
+    margin-top: 0;
+    }
+    
+    /*Page Three Heading*/
+    
+    .interconnected-country {
+       pointer-events: none;
+        width: 100%;
+        z-index: 9999;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/193ec50d8ae3574801cc4668bbbd25898d0751a3.jpg);
+        height: 600px;
+       background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+       /*background-attachment: fixed; Parallax*/
+    }
+    
+    .interconnected-country .front-page-inner {
+    pointer-events: inherit;
+        max-width: 1141px;
+        color: green;
+        box-sizing: border-box;
+        padding: 0 0 40px 20px;
+        position: absolute;
+    top: 100px;
+    left: 0;
+    }
+    
+    .front-page-inner .interconnected-country h2 {
+         color:#333;
+         font-size: 52px;
+         line-height: 1.2em;
+         font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+    }
+        
+    .interconnected-country h2 {
+    margin-top: 0;
+    }
+    
+    /*Page Four Heading*/
+    .spiderweb {
+       pointer-events: none;
+        width: 100%;
+        z-index: 9999;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/5a23344483446de629c8a65b62ecf7cd07d3e9f1.jpg);
+        height: 600px;
+       background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+      /* background-attachment: fixed; Parallax*/
+    }
+    
+    .spiderweb .front-page-inner {
+    pointer-events: inherit;
+        max-width: 1141px;
+        color: green;
+        box-sizing: border-box;
+        padding: 0 0 40px 20px;
+        position: absolute;
+    top: 100px;
+    left: 0;
+    }
+    
+    .front-page-inner .spiderweb h2 {
+         color:#333;
+         font-size: 52px;
+         line-height: 1.2em;
+         font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+    }
+        
+    .spiderweb h2 {
+    margin-top: 0;
+    }
+    
+    /*Page Five Heading*/
+    
+    .countries {
+       pointer-events: none;
+        width: 100%;
+        z-index: 9999;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/2fe95a20bbd7221962e0d1b05fabe174474670aa.jpg);
+        height: 600px;
+       background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+       /*background-attachment: fixed; Parallax*/
+    }
+    
+    .countries .front-page-inner {
+    pointer-events: inherit;
+        max-width: 1141px;
+        color: green;
+        box-sizing: border-box;
+        padding: 0 0 40px 20px;
+        position: absolute;
+    top: 100px;
+    left: 0;
+    }
+    
+    .front-page-inner .countries h2 {
+         color:#333;
+         font-size: 52px;
+         line-height: 1.2em;
+         font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+    }
+        
+    .countries h2 {
+    margin-top: 0;
+    }
+    
+    /*Page Six Heading*/
+    
+    .worlds {
+       pointer-events: none;
+        width: 100%;
+        z-index: 9999;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/9229bbded0991be20f7f7e50098988f06140370c.jpg);
+        height: 600px;
+       background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+       /*background-attachment: fixed; Parallax*/
+    }
+    
+    .worlds .front-page-inner {
+    pointer-events: inherit;
+        max-width: 1141px;
+        color: green;
+        box-sizing: border-box;
+        padding: 0 0 40px 20px;
+        position: absolute;
+    top: 100px;
+    left: 0;
+    }
+    
+    .front-page-inner .worlds h2 {
+         color:#333;
+         font-size: 52px;
+         line-height: 1.2em;
+         font-weight: 300;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+    }
+        
+    .worlds h2 {
+    margin-top: 0;
+    }
+    
+    /*Japan's Famous Places Heading*/
+    
+.famous {
+	pointer-events: none;
+	width: 100%;
+	z-index: 9999;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/c22c47160d840715ee6ae23e2a3ac78f86ea7d2f.jpg);
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+       /*background-attachment: fixed; Parallax*/;
+}
+
+.famous .front-page-inner {
+	pointer-events: inherit;
+	max-width: 1141px;
+	color: green;
+	box-sizing: border-box;
+	padding: 0 0 40px 20px;
+	position: absolute;
+	top: 100px;
+	left: 80px;
+}
+
+.front-page-inner .famous h2 {
+	color: #333;
+	font-size: 52px;
+	line-height: 1.2em;
+	font-weight: 300;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+}
+
+.famous h2 {
+	margin-top: 0;
+}
+    
+    /*Bridges to the Outside World Heading*/
+    
+.bridges {
+	pointer-events: none;
+	width: 100%;
+	z-index: 9999;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/a47ea764c5ef9ea076db766ba1279fc709780817.jpg);
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+       /*background-attachment: fixed; Parallax*/;
+}
+
+.bridges .front-page-inner {
+	pointer-events: inherit;
+	max-width: 1141px;
+	color: green;
+	box-sizing: border-box;
+	padding: 0 0 40px 20px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+
+.front-page-inner .bridges h2 {
+	color: #333;
+	font-size: 52px;
+	line-height: 1.2em;
+	font-weight: 300;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+}
+
+.bridges h2 {
+	margin-top: 0;
+}
+    
+    /*Touring Japanese Cities*/
+    
+.touring {
+	pointer-events: none;
+	width: 100%;
+	z-index: 9999;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/15b9c965697464a5990635e2b4c2f0c79d03c9c3.jpg);
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+      /* background-attachment: fixed; Parallax*/;
+}
+
+.touring .front-page-inner {
+	pointer-events: inherit;
+	max-width: 1141px;
+	color: green;
+	box-sizing: border-box;
+	padding: 0 0 40px 20px;
+	position: absolute;
+	top: 100px;
+	left: 80px;
+}
+
+.front-page-inner .touring h2 {
+	color: #333;
+	font-size: 52px;
+	line-height: 1.2em;
+	font-weight: 300;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+}
+
+.touring h2 {
+	margin-top: 0;
+}
+    
+    
+    /*About this Exhibition*/
+    
+.about {
+	pointer-events: none;
+	width: 100%;
+	z-index: 9999;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url(https://www.digitalexhibitions.manchester.ac.uk/files/asset/a5fb288afaac23c965d0c7a4165e4d2332f0345e.jpg);
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+        /*background-attachment: fixed;Parallax*/;
+}
+
+.about .front-page-inner {
+	pointer-events: inherit;
+	max-width: 1141px;
+	color: green;
+	box-sizing: border-box;
+	padding: 0 0 40px 20px;
+	position: absolute;
+	top: 100px;
+	left: 80px;
+}
+
+.front-page-inner .about h2 {
+	color: #333;
+	font-size: 52px;
+	line-height: 1.2em;
+	font-weight: 300;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+}
+
+.about h2 {
+	margin-top: 0;
+}
+
+.subheadings {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+    
+    /*Search Page Container*/
+    
+.site_pages.results, .items.results {
+	width: 75%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.mapping-block {
+	width: 80%;
+	margin: 1em auto;
+	max-width: 1200px;
+}
+
+#mapping-section {
+	display: block;
+	clear: left;
+}
+    
+    /*Remove Nested Navigation Links [sub-menu]*/
+#content .sub-menu ul.navigation {
+	display: none;
+}
+    
+    /*Margins given 100% content width*/
+    
+    /*Universal Viewer*/
+.universal-viewer {
+	margin: 24px 20px 24px 20px;
+}
+    
+    /*Search Results*/
+.search-filters {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.browse-controls {
+	width: 80%;
+	margin: 0 auto;
+}
+    
+    /*Item Set list view*/
+ul.resource-list {
+	width: 70%;
+	margin: 0 auto;
+}
+
+nav.pagination {
+	width: 80%;
+	margin: 0 auto;
+}
+    
+    /*Accessibility*/
+        /*Focus on Search button*/
+.full-screen-search:focus {
+	outline: 2px solid red;
+	background: lightgrey;
+}
+
+.full-screen-search:focus:not(:focus-visible) {
+          /* Remove the focus indicator on mouse-focus for browsers
+             that do support :focus-visible */
+	background: transparent;
+}
+
+.full-screen-search:focus-visible {
+          /* Draw a very noticeable focus style for
+             keyboard-focus on browsers that do support
+             :focus-visible */
+	outline: 4px dashed darkorange;
+	background: transparent;
+}
+        /*End focus on Search button*/
+    
+    /*Youtube Video Container*/
+    
+.video-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+.video-container::after {
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+    
+    /*End YouTube Video Container*/
+    
+    /*Item Showcase Styling*/
+.top-level-metadata h3 {
+	margin: 0;
+}
+
+p.identifier {
+	font-weight: 600;
+}
+
+p.alt_title {
+	font-style: italic;
+}
+
+.item-horizontal {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 2em;
+}
+
+.item-horizontal {
+	background: #ececed;
+}
+
+.item-horizontal .right, .item-horizontal .left {
+	max-width: unset;
+}
+    
+    /*Reduce image size for Media Embed*/
+    
+.item.resource img {
+	max-height: 650px;
+}
+    
+    /*Add additional border on tab navigation*/
+a:focus-visible {
+	border: 3px yellow solid;
+}
+
+img.lazy a {
+	border: 3px yellow solid;
+}
+    
+    /*Change  marker colour on Mapping module*/
+.marker-cluster-small div {
+	background-color: #2b2727;
+}
+
+.marker-cluster span {
+	color: #fff;
+}
+
+img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive:focus {
+	border: solid 1px #000;
+}
+
+.leaflet-marker-icon.marker-cluster.marker-cluster-small.leaflet-zoom-animated.leaflet-interactive:focus {
+	border: solid 1px #000;
+}
+    
+    /*Container for Media Show page*/
+.media.resource.show #content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1201px) {
+	.navbar h1 {
+		flex-basis: 20%;
+		font-size: 28px;
+	}
+
+	#top-menu {
+		flex-basis: 80%;
+	}
+}
+
+@media only screen and (max-width: 1144px) {
+	.navbar li {
+		flex: 0 1 20%;
+		padding: 12px 0;
+	}
+}
+
+@media only screen and (min-width: 1070px) {
+                /*Responsive Menu Bars*/
+	#oc-trigger {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1069px) {
+	#top-menu {
+		display: none;
+	}
+
+	.navbar h1 {
+		flex-basis: 100%;
+		text-align: center;
+	}
+
+	header nav a:link, header nav a:visited {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+.item-showcase .top-level-metadata h3 {
+margin-top: 1em;
+}
+}
+
+@media screen and (max-width: 1024px) {
+	.introduction, .explore {
+		padding: 2em 20%;
+    }
+	.item.resource .caption p {
+		line-height: 1.7;
+	}
+
+	.item.resource .caption {
+		padding: 2em 20%;
+	}
+
+	p.identifier {
+		text-align: center;
+	}
+
+	.item-horizontal .right.file {
+		margin: 0;
+    }
+    
+	.item-horizontal {
+		flex-direction: column;
+	}
+
+	.item-horizontal h3, p.alt_title, p.date {
+		text-align: center;
+	}
+
+	p.alt_title {
+		padding: 0 1em;
+	}
+
+	.right.file {
+		order: 0;
+	}
+
+	.media_embed_text {
+		padding: 0 20% 2em 20%;
+	}
+
+	.item-showcase .top-level-metadata h3 {
+		margin: 1em;
+    }
+	.resource.show .property {
+		padding: 12px 10%;
+	}
+}
+
+@media only screen and (max-width: 921px) and (min-width: 520px) {
+nav.pagination {
+margin-bottom: 1em;
+}
+}
+
+@media only screen and (max-width: 861px) {
+            
+	header h1 {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.introduction p {
+		line-height: 1.7;
+	}
+
+	.item.resource.show #content {
+		width: 85%;
+		margin-bottom: 12px;
+	}
+}   
+        
+        /*Remove padding from Universal Viewer on mobiles*/
+@media only screen and (max-width: 767px) {
+	.centerPanel #content {
+		padding: 0;
+	}
+
+	.site-heading {
+		order: 1;
+	}
+
+	header a.site-title {
+		font-size: 32px;
+	}
+
+	.site-heading p {
+		margin: 12px 0;
+	}
+
+	#menu .navigation li a {
+		font-size: 1em;
+    }
+        .front-page .front-page-inner h2 {
+        width: 100%;
+        }
+}
+
+@media only screen and (min-width: 700px) {
+    figcaption.botLeft {
+        padding: 20px 20px 6px 3px;
+    }
+    }
+
+@media screen and (max-width: 640px) {
+	.media.resource.show #content {
+		width: 95%;
+    }
+    .item.resource .caption {
+        padding: 1em 10%;
+    }
+    .video-container {
+        width: 100%;
+            }
+	.introduction, .explore {
+		padding: 1em 10%;
+	}
+
+	.item.resource.show #content {
+		display: flex;
+		flex-wrap: wrap;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.item.resource.show #content>h2+h3 {
+		margin-top: 12px;
+	}
+
+	.item.resource.show #content>.media-list {
+		order: 4;
+	}
+
+	.media_embed_text {
+		width: 100%;
+		display: block;
+		clear: left;
+		border-bottom: solid 1px #dfdfdf;
+	}
+
+	.media_embed_text h3 {
+		border-bottom: 0;
+		padding: 0 0.5em 0.5em 0;
+	}
+    
+    /*Remove border from thumbnails on mobiles*/
+    
+	.file {
+		border-bottom: 0;
+	}
+
+	.right, .left {
+		overflow: hidden;
+		max-width: 66%;
+		margin: auto;
+	}
+
+	.left.file {
+		float: none;
+		margin: auto;
+	}
+
+	.item-showcase .resource.item:not(:only-child) {
+		width: 50%;
+	}
+
+	.intro-text {
+		width: 100%;
+    } 
+        /*Item Set list view*/
+        ul.resource-list {
+            width: 90%;
+            margin: 0 auto;
+        }
+      .media_embed_text {
+                padding: 0 10% 1em 10%;
+            }
+        
+            .left.large.file {
+                display: flex;
+                justify-content: space-around;
+            }
+        
+            .file .item-horizontal {
+                border-top: none;
+                border-bottom: none;
+            }
+    }
+
+@media only screen and (min-width: 600px) {
+    figcaption {
+        background: white;
+    }
+    .description, .imagePromo {
+        display: block;
+    }
+    }
+
+@media only screen and (min-width:520px) and (max-width:621px) {
+            
+	#oc-trigger {
+		order: 2;
+	}
+}
+
+@media only screen and (max-width:493px) {
+	.site-heading {
+		width: 100%;
+		margin: 0;
+	}
+
+	#oc-trigger {
+		order: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    .front-page aside.mobile-blocker {
+    display: block;
+    width: 100%;
+    height: 100%;
+    }
+    }
+
+@media only screen and (max-width: 450px) {
+	.quote-image {
+		display: block;
+		width: 50%;
+	}
+
+	.quote-image img {
+		max-width: 60%;
+	}
+
+	.quote-text {
+		display: block;
+		width: 100%;
+		border-right: 2px solid #6b2c91;
+		padding: 0 1em;
+	}
+}
+
+@media only screen and (max-width:393px) {
+	.site-heading {
+		font-size: 19px;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+        /*Cookie bar interfering with 'skipnav'*/
+	#cookie-bar {
+		text-align: left !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    .front-page-inner {
+    top: 10%;
+    left: 5%;
+    width: 100%;
+    }
+    
+    .front-page .front-page-inner h2  {
+    font-size: 40px;
+    }
+    }
+    
+/*Credit Image*/
+.credit {
+background-color: #fff;
+margin-top: 2em;
+}
+
+.credit img {
+margin: 0 auto;
+display: block;
+max-width: 250px;
+}
+
+.introduction.credit {
+text-align: center;
+margin-top: 0;
+}
+
+.introduction.credit p {
+font-size: 1em;
+}
