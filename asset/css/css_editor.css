@@ -1,15 +1,35 @@
-/*No Margin Top*/
-
-.no-margin-top {
-    padding-top: 0!important;
+/*Cookie Bar*/
+.cb-enable,
+.cb-policy {
+    margin-top: .5rem
 }
 
+#cookie-bar a.cb-enable {
+    background: #609
+}
+
+#cookie-bar a.cb-enable:hover {
+    background: #406
+}
+
+#cookie-bar a.cb-policy {
+    background: #fc3;
+    color: #0a0a0a
+}
+
+#cookie-bar a.cb-policy:hover {
+    background: #ffbf00
+}
+
+/*No Margin Top*/
+.no-margin-top {
+padding-top: 0!important;
+}
 
 /*Poem text formatting*/
-
 .no-margin-block p {
-    margin-block-start: 0;
-    margin-block-end: 0;
+margin-block-start: 0;
+margin-block-end: 0;
 }
 
 .no-margin-block h2 {
@@ -17,25 +37,22 @@
 }
 
 sup a {
-    color: red;
+color: red;
 }
-
 
 /*Full CARLA CSS edits 25_04_22*/
 
-
 /*Dropdown menu added*/
-
- :focus-visible {
-    z-index: 99999!important;
+:focus-visible {
+z-index: 99999!important;
 }
 
 ul.navigation li ul li:not(:last-child) {
-    border-bottom: solid 1px #859;
+border-bottom: solid 1px #859;
 }
 
 header nav {
-    margin: 3px;
+margin: 3px;
 }
 
 header nav>ul>li>ul li {
@@ -44,11 +61,11 @@ header nav>ul>li>ul li {
 }
 
 .navbar {
-    min-height: unset!important;
+min-height: unset!important;
 }
 
 .navbar ul {
-    padding: 0!important;
+padding: 0!important;
 }
 
 .navbar ul li ul {
@@ -58,23 +75,23 @@ header nav>ul>li>ul li {
     transition: all 0.5s ease;
 }
 
-ul li:hover>ul,
-ul li:focus-within>ul,
+ul li:hover > ul,
+ul li:focus-within > ul,
 ul li ul:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-    z-index: 1000;
-    background: #6b2c91;
-    width: 300px;
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  z-index: 1000;
+  background: #6b2c91;
+  width: 300px;
 }
 
 ul li ul li {
-    clear: both;
-    width: 100%;
+  clear: both;
+  width: 100%;
 }
 
-.navbar ul li:hover>ul {
+.navbar ul li:hover > ul {
     display: block;
     visibility: visible;
     opacity: 1;
@@ -82,7 +99,7 @@ ul li ul li {
 }
 
 header nav>ul>li>ul li:before {
-    content: unset;
+content: unset;
 }
 
 
@@ -585,8 +602,8 @@ header h1 {
 }
 
 .introduction h4 {
-    font-size: 1.2em;
-    line-height: 1.7;
+font-size: 1.2em;
+line-height: 1.7;
 }
 
 .introduction p,
@@ -640,8 +657,8 @@ header h1 {
 
 
 /*.item-showcase .resource.item:not(:only-child) h3, .item-showcase .resource.item:not(:only-child) p {
-    display: none;
-    }*/
+display: none;
+}*/
 
 
 /*Narrow Container for Item Show Pages*/
@@ -669,7 +686,7 @@ header h1 {
     color: #fff;
     width: 100%;
     min-height: 70px;
-    padding: 0 25px;
+    padding: 0 12px;
     flex-wrap: wrap;
     order: 4;
 }
@@ -683,11 +700,11 @@ header h1 {
 }
 
 .navbar h1 {
-    flex-basis: 25%;
+    flex-basis: 19%;
 }
 
 .navbar li {
-    flex: 0 1 20%;
+    flex: 1 1 14%;
     font-weight: 400;
     display: inline-block;
     /*whole li link*/
@@ -719,11 +736,11 @@ header h1 {
 
 .navbar ul li a {
     color: #fff;
-    padding: 12px;
+    padding: 6px;
 }
 
 #top-menu {
-    flex-basis: 70%;
+    flex-basis: 80%;
 }
 
 #top-menu ul.navigation li a {
@@ -924,8 +941,8 @@ figure a:hover img {
 
 
 /*.media-render a:hover {
-        background-color: #6b2c91;
-        } */
+    background-color: #6b2c91;
+    } */
 
 
 /*  End Highlight media item purple*/
@@ -1226,10 +1243,9 @@ header nav {
 }
 
 .caption p a {
-    color: #6b2c91;
-    text-decoration: underline;
+color: #6b2c91;
+text-decoration: underline;
 }
-
 
 /*Text under Item Showcase*/
 
@@ -1889,8 +1905,8 @@ button {
 
 
 /*#content .content {
-        background: #000;
-        }*/
+    background: #000;
+    }*/
 
 
 /*Paragraph Text on Universal Viewer*/
@@ -2014,14 +2030,14 @@ nav.pagination {
 
 .full-screen-search:focus:not(:focus-visible) {
     /* Remove the focus indicator on mouse-focus for browsers
-                 that do support :focus-visible */
+             that do support :focus-visible */
     background: transparent;
 }
 
 .full-screen-search:focus-visible {
     /* Draw a very noticeable focus style for
-                 keyboard-focus on browsers that do support
-                 :focus-visible */
+             keyboard-focus on browsers that do support
+             :focus-visible */
     outline: 4px dashed darkorange;
     background: transparent;
 }
@@ -2092,7 +2108,6 @@ p.alt_title {
     max-height: 650px;
 }
 
-
 /*Change  marker colour on Mapping module*/
 
 .marker-cluster-small div {
@@ -2140,6 +2155,21 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive:focus {
     #oc-trigger {
         display: none;
     }
+}
+
+@media only screen and (min-width: 1070px) and (max-width: 1145px) {
+.navbar h1 {
+  flex-basis: 13%;
+  font-size: 26px;
+}
+
+.navbar li {
+  flex: 0 1 16%;
+}
+
+#top-menu {
+  flex-basis: 86%;
+}
 }
 
 @media only screen and (max-width: 1069px) {
@@ -2215,9 +2245,9 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive:focus {
         line-height: 1.7;
         font-size: 1em;
     }
-    .introduction h4 {
-        font-size: 1em;
-    }
+.introduction h4 {
+font-size: 1em;
+}
     .item.resource.show #content {
         width: 85%;
         margin-bottom: 12px;
@@ -2255,12 +2285,12 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive:focus {
 }
 
 @media screen and (max-width: 640px) {
-    .uv .centerPanel .content .btn.zoomIn {
-        width: 28px!important;
-    }
-    .uv .centerPanel .content .btn {
-        width: 30px!important;
-    }
+.uv .centerPanel .content .btn.zoomIn {
+width: 28px!important;
+}
+.uv .centerPanel .content .btn {
+width: 30px!important;
+}
     .media.resource.show #content {
         width: 95%;
     }
@@ -2488,10 +2518,10 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive:focus {
 
 
 /*@media only screen and (min-width: 767px) {
-    .page-hero {
-    background-attachment: fixed;
-    }
-    }*/
+.page-hero {
+background-attachment: fixed;
+}
+}*/
 
 .page-hero .page-hero-inner {
     pointer-events: inherit;
@@ -2644,11 +2674,10 @@ a.link {
 }
 
 @media screen and (max-width: 799px) {
-    #content .blocks .universal-viewer {
-        width: 90%;
-    }
+#content .blocks .universal-viewer {
+    width: 90%;
 }
-
+}
 
 /*Remove margin from below media embed items*/
 
@@ -2767,9 +2796,7 @@ figcaption.botRight {
     word-break: break-word;
 }
 
-
 /*H2 styling for BlockPlus Hero Bootstrap*/
-
 .col-md-6.offset-3.mt-5 h2 {
     margin: 12px 0;
     color: #333;
@@ -2787,7 +2814,7 @@ figcaption.botRight {
         padding: 0.5em;
     }
     .col-md-6.offset-3.mt-5 h1,
-    .col-md-6.offset-3.mt-5 h2 {
+ .col-md-6.offset-3.mt-5 h2  {
         font-size: 36px;
         line-height: 1.2em;
     }
@@ -2800,7 +2827,6 @@ figcaption.botRight {
 figure:hover {
     background-color: #e6c9f7!important;
 }
-
 
 /*Mobile Menu amends*/
 
@@ -2868,14 +2894,12 @@ nav.breadcrumbs {
 }
 
 @media (max-width: 420px) {
-    .plyr-container-narrow {
-        width: 100%;
-    }
+.plyr-container-narrow {
+width: 100%;
+}
 }
 
-
 /*plyr captions on iPhone*/
-
 @media (max-width: 600px) {
     .plyr--full-ui ::-webkit-media-text-track-container {
         display: block !important;
@@ -2887,31 +2911,25 @@ nav.breadcrumbs {
         display: var(--webkit-text-track-display);
     }
 }
-
-
 /* ENDS*/
 
-
 /*CSS for language bar on mobiles*/
-
 @media only screen and (max-width: 432px) {
     #lang {
         order: 1;
     }
 }
 
-
 /*HTML5 video edits*/
-
 .plyr-container-narrow video {
-    width: 400px;
+width: 400px;
     height: auto;
 }
 
 @media only screen and (max-width: 401px) {
-    .plyr-container-narrow video {
-        width: 320px;
-    }
+.plyr-container-narrow video {
+width: 320px;
+}
 }
 
 header nav#menu>ul>li>ul li:before {
@@ -2924,28 +2942,22 @@ header nav#menu>ul>li>ul li:before {
 }
 
 header nav#menu ul li a {
-    font-weight: 600;
+font-weight: 600;
 }
 
 header nav#menu>ul>li>ul li a {
-    font-weight: 400;
+font-weight: 400;
 }
-
 
 /*26_04_addition*/
-
 .navbar ul li ul li a {
-    padding: 12px 12px 12px 24px;
+padding: 12px 12px 12px 24px;
 }
-
-
 /*End*/
 
-
 /*Ensure left panel visible at all times*/
-
 @media screen and (max-width: 799px) {
-    .uv .mainPanel .leftPanel {
-        display: initial!important;
-    }
+.uv .mainPanel .leftPanel {
+    display: initial!important;
+}
 }
