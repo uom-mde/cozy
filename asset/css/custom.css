@@ -1,0 +1,1138 @@
+/*Cookie Bar*/
+.cb-enable,
+.cb-policy {
+    margin-top: .5rem
+}
+
+#cookie-bar a.cb-enable {
+    background: #609
+}
+
+#cookie-bar a.cb-enable:hover {
+    background: #406
+}
+
+#cookie-bar a.cb-policy {
+    background: #fc3;
+    color: #0a0a0a
+}
+
+#cookie-bar a.cb-policy:hover {
+    background: #ffbf00
+}
+
+/*Underline links in metadata*/
+.property a:link, a:visited {
+    text-decoration: underline;
+}
+
+/*Keyboard navigation on side menu*/
+#side-menu ul li a:focus-visible {
+    border: 2px solid #000;
+   border-radius: 10px;
+}
+
+
+/*Focus on Search button*/
+.full-screen-search:focus {
+  outline: 2px solid red;
+  background: lightgrey;
+}
+
+.full-screen-search:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do support :focus-visible */
+  background: transparent;
+}
+
+.full-screen-search:focus-visible {
+  /* Draw a very noticeable focus style for
+     keyboard-focus on browsers that do support
+     :focus-visible */
+  outline: 4px dashed darkorange;
+  background: transparent;
+}
+/*End focus on Search button*/
+
+/*Remove Media List from Item Show page*/
+.resource.show .property {
+width: 100%;
+}
+
+.resource.show .media-list {
+display: none;
+}
+
+/*Remove padding from Universal Viewer on mobiles*/
+@media only screen and (max-width: 767px) {
+    .centerPanel #content {
+        padding: 0;
+    }
+    }
+    
+    /*Universal Viewer on top of page*/
+    
+    .universal-viewer-block {
+    display: block;
+    }
+    
+    /*Universal Viewer Button*/
+    .uv .btn-primary {
+        background-color: #6b2383 !important;
+        border-color: #cccccc !important;
+    }
+    
+    .uv .btn-primary:hover {
+        background-color: #79379D !important;
+    }
+    
+    /*Add flex to header*/
+    
+     .university-logo img {
+        display: flex;
+        order:0;
+        }
+    
+    .site-heading {
+    display: flex;
+    order: 1;
+    flex-grow: 3;
+    width: 25%;
+    }
+
+        .site-heading {
+           font-size: 22px;
+            color: #6B2C91;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            line-height: 22px;
+            text-decoration: none;
+            padding: 0;
+            margin: 0 30px;
+        }
+    
+    .site-heading p {
+       color: #6B2C91; 
+    }
+    
+    .full-screen-search {
+       display: flex;
+        order: 2;
+    }
+    
+    #oc-trigger {
+       display: flex;
+       order: 3;  
+    }
+    
+    @media only screen and (min-width: 767px) {
+    .site-heading {
+    order: 1;
+    }
+    }
+    
+    @media only screen and (max-width: 830px) {
+    .full-screen-search {
+       order: 4;
+       margin: 0 auto;
+    }
+    header h1 {
+    margin-bottom: 20px;
+    }
+    }
+    
+    @media only screen and (min-width: 640px) {
+    .site-heading {
+    order: 1;
+    }
+    
+    #oc-trigger {
+    order: 2;
+    }
+    }
+
+@media only screen and (max-width: 639px) {
+    
+   .full-screen-search {
+    order: 1;
+    }
+
+    #oc-trigger {
+    order: 2;
+    }
+    
+    .site-heading {
+    order: 3;
+    width: 100%;
+    margin: 0;
+    }
+    }
+
+@media only screen and (max-width: 540px) {
+   .full-screen-search {
+    order: 4;
+    margin-top: 12px; 
+    }
+}
+    
+    header h1 {
+       display: flex;
+       order: 3;
+    }
+
+@media only screen and (max-width: 358px) {
+.site-heading {
+   margin: 0 -15px;
+}
+}
+
+@media only screen and (max-width: 328px) {
+.site-heading p {
+    font-size: 0.95em;
+}
+}
+
+    /*End Flex Header*/
+    
+    /*Responsive Search Button*/
+    
+    
+    header h1 {
+       font-size: 40px;
+       font-weight: 300;
+       line-height: 1.1;
+       margin: 10px auto;
+       text-align: center;   
+    }
+    
+    header a.site-title {
+       /*color: #333333;*/
+   color: #6b2c91;   /* Change Colour to Purple Tony 20 April 2021*/
+   text-align:left;     /*Aligns the exhibit title to the left Tony 20 April 2021*/   
+}
+
+header a.site-title:hover {
+   color: #79379D;
+}
+    
+    @media only screen and (max-width: 767px) {
+    header a.site-title {
+        font-size: 32px;
+    }
+    .site-heading p {
+    margin: 12px 0;
+    }
+
+   h2.page-title {
+       font-size: 28px;
+    }
+}
+    
+    /*Centre Header Image*/
+    header .site-title img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    /*End centre header image*/
+    
+    /*Universal Viewer Full Screen*/
+    .centerPanel #content {
+        max-width: 100%;
+        }
+        
+        /*Padding below Universal Viewer*/
+        .universal-viewer {
+        margin-bottom: 24px;
+        }
+    
+        /*Universal Viewer on top on mobiles*/
+    
+        @media screen and (max-width: 640px) {
+    .item.resource.show #content>.media-list {
+        order: 4;
+    }
+    }
+    
+    /*Home Page Image*/
+    
+    #home-image img {
+           display: block;
+            height: auto;
+            object-fit: contain;
+           max-width: 100%;
+        }
+        
+ 
+ /*Side Navigation */
+
+    #content-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        }
+
+        #side-menu {
+        background-color: #fff;
+        float: left;
+        width: 21%;
+        margin-left: 24px;
+        }
+
+        #side-menu li {
+           margin: 0;
+            padding: 0;
+            overflow: hidden;
+           border-bottom: 1px solid #fff;
+           background: #ebeced; /*#6b2c91*/
+        }
+
+        #side-menu li:hover {
+           background-color: #6b2c91; /*#79379D;*/
+        }
+
+        #side-menu ul {
+           list-style: none;
+        }
+
+        #side-menu li a {
+           display: block;
+           text-decoration: none;
+        }
+
+        #side-menu ul li a {
+            color: #272828;
+            margin: 0;
+            padding: 15px;
+            word-wrap: break-word;
+               line-height: 1.55em;
+        }
+
+        @media only screen and (min-width: 1000px) {
+    #side-menu ul li a {
+            color: #272828;
+            margin: 0;
+            padding: 15px 25px 15px 40px;
+            font-size: 1em;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+
+    #side-menu ul li a {
+            font-size: 0.96em;
+        }
+    }
+
+        #side-menu ul li a:hover {
+          color: #fff;
+        }
+
+        #side-menu ul {
+        padding-left: 0;
+        }
+
+        ul#side-menu {
+           padding-left: 0;
+           margin: 24px 0 0 0;
+        }
+
+        #side-menu .navigation ul {
+        padding-left: 0;
+        }
+        /*End Side Navigation*/
+
+
+        /*Split Content Container into two 27_04_21*/
+        #content {
+        width: 75%;
+        margin: 0;
+        }
+        
+        footer {
+        width: 100%;
+        display: block;
+        clear: both;
+        }
+        
+        /*End Split Content Container into two*/
+        
+        /*Responsive Menu Bars*/
+        
+        @media only screen and (min-width: 768px) {
+        #oc-trigger {
+           display: none;
+        }
+        }
+        
+        @media only screen and (max-width: 767px) {
+        #side-menu {
+           display: none;
+        }
+        
+        #content {
+        width: 100%;
+        padding: 24px;
+        }
+    
+    #menu .navigation li a{
+       font-size: 1em;
+    }
+    
+    #home-image img {
+        max-width: 118%;
+        margin-left: -9%;
+    }
+    }
+            
+        /*End Side Navigation 27_04_21*/
+
+  
+        /*New H1 and University Logo*/
+        
+        #title-container {
+            margin: 20px 0 0;
+           display: block;
+        }
+        
+        #site-identifier {
+           display: inline-block;
+           width: 90%;
+           max-width: 1140px;
+           margin: auto;
+        }
+        
+        .university-logo img {
+        width: 167px;
+        }
+                    
+        .site-title h1 {
+           font-size: 22px;
+            color: #6B2C91;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            line-height: 22px;
+            text-decoration: none;
+            padding: 0;
+        }
+        
+        /*End new H1 and University Logo*/
+        
+        /*Home Page Image*/
+        #home-image {
+           display: block;
+           position: relative;
+           text-align: center;
+           color: #fff;
+        }
+       
+    
+    
+    /*Front Page Grid*/
+    
+    figure:hover {
+    background-color: #6b2c91;
+    }
+    
+    .sixcol.fullSizeUntilDesktop a:hover {
+    color: purple;
+    }
+    
+    figcaption.botLeft a {
+    color: #333333;
+    }
+    
+    p.description a {
+    color: #333333;
+    }
+    
+    figure a:hover img {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        -moz-backface-visibility: hidden;
+    }
+    /*End Front Page Grid*/  
+    
+    /*Highlight media item purple*/
+    
+    .left .item.resource img {
+    margin-bottom: 0;
+    }
+    
+    .item.resource img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        -moz-backface-visibility: hidden;
+    }
+    
+    /*.media-render a:hover {
+    background-color: #6b2c91;
+    } */
+    /*  End Highlight media item purple*/
+        
+        /*Fonts*/
+        
+        html {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+         h1, h2, h3, h4, h5, h6 {
+           font-family: 'Open Sans', sans-serif;
+           color: #1D1D1D;
+        } 
+        
+       h2 {
+           font-size: 34px;
+           font-weight: 300;
+           line-height: 1.2;
+           color: #1D1D1D;
+         }
+   
+        h2.page-title {
+           color: #FFFFFF;
+           padding: 0.5em;
+            background-color: #6b2383;
+        }
+        
+        h3 {
+           font-size: 26px;
+           font-weight: 400;
+           line-height: 1.3;
+        }
+        
+        h4 {
+           font-size: 22px;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+        
+        p {
+           font-family: 'Open Sans', sans-serif;
+           color: #343536;
+           line-height: 1.5;
+        } 
+        
+         a {
+           font-family: 'Open Sans', sans-serif;
+        }
+        
+        .resource.show #content>h2+h3 {
+           font-family: 'Open Sans', sans-serif;
+           background-color: #6b2c91;
+            color: #fff;
+        }
+        
+        .results>a:last-child {
+           font-family: 'Open Sans', sans-serif;
+        }
+    
+    a.advanced-search {
+           font-family: 'Open Sans', sans-serif;
+           background-color: #6b2c91
+        }
+    
+    select {
+       font-family: 'Open Sans', sans-serif;
+       border: 1px solid #ccc;
+    }
+        
+        /*End Fonts*/
+        
+        /*Change Exhibition Buttons Colour*/
+    .site-page-pagination {
+       text-align: center;
+    }
+    
+    
+        .site-page-pagination a {
+        background-color: #6b2c91;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        padding: 6px 15px;
+        }
+    
+    .site-page-pagination a:hover {
+    background-color: #79379D  !important;
+    }
+        
+        /*End Change Exhibition Buttons Colour*/
+        
+        /*End background image*/
+        
+        /* Change header background to white*/
+        header:before {
+         background-color: #fff;
+        }
+        
+        /*Search form and menu button*/
+        
+        #search-form {
+           border: 1px solid #525355;
+           /*border-radius: 4px 0px 0px 4px;*/
+           border-radius: 4px;
+        }
+        
+        #search-form button, #menu-button {
+            /*border: 1px solid #1f431f;*/
+           border: 1px solid #525355;
+        }
+        
+        input[type="submit"], button, .button {
+           background-color: #fff;
+           /*color: #1f431f;*/
+           color: #525355;
+        }
+        
+        #search-form button {
+           border-width: 0px 0px 0px 1px;
+           border-radius: 0px 4px 4px 0px;
+        }
+        
+        #search-form input[type="text"] {
+          background-color: #ffffff;
+           color: #1d1d1d;
+        }
+    
+       form button:hover {
+       background-color: #6b2c91;
+    }
+    
+       #search-form button[type="submit"]:hover:before {
+        color: #FFFFFF;
+    }
+        
+        @media only screen and (max-width: 323px) {
+        #search-form {
+           margin: 0;
+        }
+        }
+    
+    /*Mobile Menu Button*/
+    #menu-button {
+        border: 1px solid #525355;
+    }
+    
+    input[type="submit"], button, .button {
+       color: #CCCCCC;
+    }
+    
+        /*Search Results Button*/
+        
+        .results>a:last-child {
+            background-color: #6b2c91;
+            }
+    
+    #search-form button[type="submit"]:before {
+        color: #525355;
+    }
+    
+    #search-form button[type="submit"]:after {
+        color: #CCCCCC;
+    }
+        
+        /*End search button*/
+            
+        textarea, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], input[type="date"], input[type="datetime-local"] {
+           font-family: 'Open Sans', sans-serif;
+        }
+        
+        /*End Header*/
+        
+        
+        /*Turn Media Embed Text into div*/
+        .media_embed_text {
+           width: 60%;
+            float: right;
+            padding: 0em 2em;
+        }
+        
+        .media_embed_text h3  {
+           border-bottom: solid 1px #1f431f;
+            padding: 0.5em 0.5em 0.5em 0;
+            color: #6b2c91;
+        }
+    
+    .media_embed_text h3 :hover {
+       color: #79379D;
+    }
+        
+        .media_embed_text h4 {
+           border-bottom: solid 1px #1f431f;
+            padding: 0.5em;
+        }
+        
+        @media screen and (max-width: 640px) {
+        
+        .media_embed_text {
+            width: 100%;
+            display: block;
+            clear: left;
+            border-bottom: solid 1px #dfdfdf;
+            float: initial;
+        }
+        
+        .media_embed_text h3 {
+           border-bottom: 0;
+           padding: 0 0.5em 0.5em 0;
+        }
+        
+        /*Remove border from thumbnails on mobiles*/
+        
+        .file {
+           border-bottom: 0;
+        }
+        
+        .right, .left {
+            overflow: hidden;
+            max-width: 66%;
+            margin: auto;
+        }
+        
+        .left.file {
+           float: none;
+            margin: auto;
+        }
+        }
+        
+        /*Header*/
+        header {
+            max-width: 1201px;
+            border-bottom: 1px solid #CCCCCC;
+        }
+        
+        /*Header Image*/
+        header .site-title img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        }
+        
+        /*End Header Image*/
+           
+            
+        /*Nav Menu*/
+        
+        header nav a:link, header nav a:visited {
+        font-size: 1.4em;
+        line-height: 1.6em;
+        }
+        
+        header nav {
+        font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .oc-push.oc-menu-open .oc-push.oc-menu {
+        background-color: #fff;
+        }
+         
+        
+        /*Background and font colour for quotations div*/
+        .quotes {
+            background-color: floralwhite;
+            padding: 1em;
+        }
+        
+        .quotes h2 {
+            color: #C72E2E;
+        }
+        /*End*/
+        
+        /*Item Showcase and Resource Grid Thumbnail Size*/
+        .item-showcase .resource.item:not(:only-child) img {
+            max-height:25rem;
+        }
+        
+        .resource-list.grid .resource:not(:only-child) img {
+            max-height:25rem;
+        }
+        
+        @media screen and (max-width: 640px) {
+        
+        .item-showcase .resource.item:not(:only-child) {
+            width: 50%;
+        }
+        
+        .resource-list.grid .resource {
+        width: 50%;
+        }
+        }
+        /*End Item Showcase Thumbnail Size*/
+        
+        /*Intro text*/
+        .intro-text {
+           width: 90%;
+           margin: auto;
+        }
+        
+        .intro-text h1,
+        .intro-text h2,
+        .intro-text h3  {
+           /*color: #961f30;*/
+           color: #96531f;
+           padding: .5em;
+        }
+        
+        @media screen and (max-width: 640px) {
+        .intro-text {
+           width: 100%;
+        }
+        }
+        /*End Intro Text*/
+        
+        /*Caption Text*/
+        .caption-text {
+         font-size: 1.0em;
+        }
+        
+        .caption-text p {
+         font-size: 1.0em;
+        }
+        
+        /*Text under Item Showcase*/
+        .item.resource .caption {
+         font-size: 1rem;
+        }
+        
+        
+        /*Add border around embed text*/
+        */.media_embed_text h3, h4 {
+           color: #fff;
+           padding: 1em;
+           background-color: #244024;
+           border-radius: 3px;
+        }*/
+        
+        
+        /*Editing Header*/
+        #banner {
+        width: 80%;
+        display: block;
+        padding: 1em;
+        margin: auto;
+        }
+        
+        
+        /*Item Sets alignment*/
+        .resource.show .property .values, .resource.show .property h4 ~ .value {
+        display: block;
+        }
+        
+        /* CSS Document -  Library website - page footer CSS */
+        /* Layout Grid  */
+        
+        .row 														{position: relative;width: 90%;max-width: 1140px;margin: 0 auto;padding: 0;overflow: hidden;}
+        .tripleVertPadding 											{ padding: 3em 0; }
+        .threecol,  .fourcol,  .fourcolRigid,  .sixcol,  .eightcol 	{ margin-right: 3.8%; float: left; overflow: hidden;	position: relative; }
+        .threecol,  .fourcol 										{ width: 100%; }
+        .fourcolRigid 												{ width: 30.8%; }
+        .ie7 .fourcolRigid 											{ width: 30.6%; }
+        .sixcol 													{ width: 100%; }
+        .eightcol 													{ width: 100%; }
+        .twelvecol 													{ width: 100%; float: left;	position: relative; }
+        .lastAtMobile 												{ margin-right: 0px; }
+        .halfSizeUntilLargeMobile 									{ width: 48.1%; }
+        .fullSizeUntilLargeMobile 									{ width: 100%; margin-bottom: 5%; }
+        .fullSizeUntilDesktop 										{ width: 100%; margin-bottom: 5%; }
+        .fullSizeUntilLargeDesktop 									{ width: 100%; margin-bottom: 5%; }
+        .showAtFullDesktop 											{ display: none!important; }
+        .colRight 													{ float: right; }
+        .last 														{ margin-right: 0px!important; }
+        
+        .headerContainer 											{ position: relative; margin: 0 auto; background: white; z-index: 1000; width: 90%;	max-width: 1140px; }
+        .headerContent 												{ width: 100%; padding: 0; background: white; }
+        .mainLogo 													{ display: inline-block; float: left; margin: 0 0 20px 0; }
+        .mainLogo img 												{ width: 170px;	height: 71px; }
+        .site-identifier 											{ display: block; clear: both; /* default small screen - switch to inline-block for larger screens */ }
+        .site-identifier p, .site-identifier a, .site-identifier a:visited, .site-identifier a:hover { font-size: 22px; color: #6b2c91; font-family: 'Open Sans', sans-serif;
+                                                                     font-weight: 400; line-height: 22px; text-decoration: none; padding: 0; }
+                                                                    
+        /* Footer and Chat CSS additions - KB 30-10-2015 */
+        
+        .eightcol 													{ margin-right: 3.8%; float: left; overflow: hidden; position: relative; }
+        .eightcol img 												{ width: 213%; }
+        
+        .twelvecol 													{ width: 100%; float: left; position: relative; }
+        
+        .footerContainer 											{ background: #1d1d1d; clear: both; }
+        .footerContent 												{ overflow: hidden;	margin: 0; }
+        
+        /* Footer */
+        footer                                                                                                       {max-width: 100%; padding: 0;}
+        .footerContainer h2 										{color: white;font-family: 'Open Sans';font-weight: 100; font-size: large; padding: 0; background-color: unset;}
+        .footerContainer .fourcol.last 								{ margin: 2em 0 0; }
+        .footerContainer .sixcol.last 								{ margin: 2em 0 0; }
+        
+        .footerContainer .tripleVertPadding 						{ padding-bottom: 1em; }
+        
+        .footerContainer li a										{font-size: 1em!important;color: #aaa;}
+        .footer-socialIcons li 										{ padding: 0!important; }
+        .footer-socialIcons li a img 								{     padding-right: 10px; width: auto!important; vertical-align: inherit; }
+        
+        .footerLogos 												{ float: left; width: 280px; }
+        .footerLogos img 											{ display: inline; margin: 0 20px 10px 0; width: auto!important; }
+        .footerLogos p 												{ color: white;	line-height: 1.3em;	font-size: 1.1em; }
+        
+        /* inline lists */
+                
+        .inlineList 												{margin: 0;padding: 0;list-style: none;overflow: hidden;}
+        .inlineList li 												{display: inline-block;margin: 0;padding: 5px;font-size: 14px;line-height: 2em;color: #aaa;font-family: 'Open Sans';}
+        .lt-ie8 .inlineList li 										{ zoom: 1; display: inline; }
+        .inlineList li a 											{display: inline-block;/* padding: 5px; */font-family: 'Open Sans';}
+        .lt-ie8 .inlineList li a 									{ zoom: 1; display: inline; }
+        
+        
+        /* Fixes for horrible bits of CSS I can't find in this file */		
+        @media screen and (max-width: 500px) {
+            /* Live chat off for mobile phones */
+            .uom_liveChat_container { display: none; }
+        }
+        
+        @media handheld and (max-width: 500px) {
+        
+            .mainLogo img 					{ width: 125px !important; height: auto; }
+            .mobile-menu-icon				{ display: block; float: right; margin: 0; width: 25px; height: auto;	position: relative; top: -0.25em; z-index: 3000; }
+            .mobile-menu-icon img 			{ vertical-align: top; display: block; padding: 14px; width: 25px !important; }
+        
+        }
+         @media screen and (min-width: 501px) {
+        
+        /* Library chat isn't suitable for small screens in it's present form */
+            /* Live chat off for mobile phones */
+            .uom_liveChat_container 		{ display: none; }
+        }
+         @media handheld and (min-width: 501px) {
+        /* Library chat isn't suitable for small screens in it's present form */
+            .uom_liveChat_container 		{ display: none; }
+        }
+         @media only screen and (min-width: 600px) {
+            .uom_liveChat_container 		{ display: block; }
+        }
+         @media only screen and (min-width: 600px) {
+        /*------------------*/
+        /* 		WIDTHS 		*/
+        /*------------------*/
+                    
+            /* Clear width overrides for "large mobile" */
+            .lastAtMobile 					{ margin-right: 3.8%; }
+            .halfSizeUntilLargeMobile 		{ width: auto; }
+            .fullSizeUntilLargeMobile 		{ margin-bottom: 0; }
+            
+            /* Restore widths to correct values */
+            .fourcol 						{ width: 30.8%; }
+            .ie7 .fourcol 					{ width: 30.6%; }
+            .sixcol 						{ width: 48.1%; }
+            .ie7 .sixcol 					{ width: 48%; }
+            .eightcol 						{ width: 65.4%; }
+            /*.footerContainer .eightcol 	{width:100%;}*/
+                        
+            /* Maintain width overrides for greater sizes */
+            .fullSizeUntilDesktop 			{ width: 100%!important; }
+            
+            /* Footer */
+            .footerLogos 					{ float: left; }
+            .footerLogos img 				{ display: inline; margin: 0 20px 10px 0; width: auto!important; }
+            .footerLogos p 					{color: white;line-height: 1.3em;font-size: 1.1em;clear: both;font-family: 'Open Sans';}
+            hr 								{ width: 100%; }
+            .footerContainer .fourcol.last 	{ margin: 0; padding: 0; border-top: 0; width: 30.8%; }
+        
+        }
+         @media only screen and (min-width: 700px) {
+        /*------------------*/
+        /* 		WIDTHS 		*/
+        /*------------------*/
+                        
+        /* Restore widths to correct values */
+            .site-identifier 					{ padding: 0 0 30px; }
+            .fourcol.fullSizeUntilDesktop 		{ width: 30.8%!important; }
+            .ie7 .fourcol.fullSizeUntilDesktop 	{ width: 30.6%!important; }
+            .sixcol.fullSizeUntilDesktop 		{ width: 48.1%!important; }
+            .ie7 .sixcol.fullSizeUntilDesktop 	{ width: 48%!important; }
+            .eightcol.fullSizeUntilDesktop 		{ width: 65.4%!important; }
+            
+        /* Show Hide Sections */
+            .showAtDesktop 						{ display: block; }
+        
+        }
+         @media only screen and (min-width: 800px) {
+        
+        }
+         @media only screen and (min-width: 960px) {
+        /*------------------*/
+        /* 		WIDTHS 		*/
+        /*------------------*/		
+        
+        /* Restore widths to correct values */
+            .threecol.fullSizeUntilLargeDesktop 	{ width: 22.15%!important; }
+            .fourcol.fullSizeUntilLargeDesktop 		{ width: 30.8%!important; }
+            .ie7 .fourcol.fullSizeUntilLargeDesktop { width: 30.6%!important; }
+            .sixcol.fullSizeUntilLargeDesktop 		{ width: 48.1%!important; margin-bottom: 0; }
+            .ie7 .sixcol.fullSizeUntilLargeDesktop 	{ width: 48%!important; }
+            .footerContainer .eightcol 				{ width: 65.4%!important; }
+            .footerContainer .fourcol.last 			{ width: 30.8%!important; margin: 0; padding: 0; border-top: 0; }
+            .showAtFullDesktop 						{ display: block!important; }
+        
+            .mobile-menu-icon 						{ display: none; }
+            .site-identifier 						{ clear: none; margin: 22px 0 0 50px; padding: 0; display: inline-block; }
+        
+        }
+         @media only screen and (min-width: 1200px) {
+        }
+         @media only screen and (min-width: 1300px) {
+        }
+         @media only screen and (min-width: 1600px) {
+        }
+        /* End Footer and Chat CSS additions */	
+        
+        
+        /*Image Gallery Blocks*/
+        /* Float collapse fix */
+                .clearBoth						{clear:both;}
+                .clearfix:before,
+                .clearfix:after 					{content: " "; display: table;}
+                .clearfix:after 					{clear: both;}
+                .clearfix 						{*zoom: 1;}
+                .overflowHidden					        {overflow:hidden;}
+        
+        
+        /*Figure Caption*/
+        
+        figure {
+            display: block;
+            position: relative;
+           margin: initial;
+        }
+        
+        figure img {
+            display: block;
+            width: 100%;
+            /*height: auto;*/
+            height: 300px;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+        }
+        
+        a img {
+            border: 0;
+        }
+           
+        figcaption {
+            position: absolute;
+            bottom: -3px;
+            background: white;
+            z-index: 1000;
+            z-index: 2000;
+        }
+        
+        @media only screen and (min-width: 600px) {
+        figcaption {
+            background: white;
+        }
+        }
+        
+        figcaption.botLeft {
+            left: -3px;
+            max-width: 70%;
+            padding: 10px 10px 6px 3px;
+        }
+        
+        @media only screen and (min-width: 700px) {
+        figcaption.botLeft {
+            padding: 20px 20px 6px 3px;
+        }
+        }
+        
+        .largeTitle {
+            margin: 0;
+            padding: 0;
+            font-size: 1.4em;
+            line-height: 1.4em;
+            color: black;
+            font-weight: 400;
+            background-color: revert;
+        }
+        
+        .description {
+            display: none;
+            margin: 0;
+            padding: 1em 0 0;
+            font-size: 1em;
+            line-height: 1.6em;
+        }
+        
+        @media only screen and (min-width: 600px) {
+        .description, .imagePromo {
+            display: block;
+        }
+        }
+        
+        /*.newsBlock a:hover span img, .slide a:hover span img, a:hover figure img {*/
+        figure img  a:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        }
+        
+        /*End Image Gallery Blocks*/
+    
+        /*Quotes on Image*/
+    .quote-image {
+        display: inline-block;
+        width: 20%;
+        float: left;
+     }
+     
+     .quote-text  { 
+        display: inline-block;
+        width: 75%;
+        float: right;
+        margin-left: 10px;
+        font-size: 1.3em;
+         background-color: #fff;
+         padding: 1.5em;
+        border-right: 3px solid #6b2c91;
+     }
+     
+     @media only screen and (max-width: 450px) {
+     .quote-image {
+        display: block;
+        width: 50%;
+     }
+     
+     .quote-image img {
+        max-width: 60%;
+     }
+     
+     .quote-text  { 
+        display: block;
+        width: 100%;
+         border-right: 2px solid #6b2c91;
+        padding: 0 1em;
+     }
+     }
+     
+     /*End Quote Image*/    
+    
+    .university-logo img:hover, header .site-title img:hover {
+       opacity: 1 !important;
+    }
+
+button {
+   color: #525355;
+   background: #fff;
+}
+
+/*Remove credits in acknowledgements*/
+.credits p {
+margin: 0;
+}
+
+#cookie-bar {
+background: #1D1D1D !important;
+}
+
+#cookie-bar p {
+color: #fff;
+}
