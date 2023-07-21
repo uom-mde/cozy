@@ -1,0 +1,44 @@
+<?php
+/**
+ * @var \Laminas\View\Renderer\PhpRenderer $this
+ * @var \Omeka\Api\Representation\AbstractResourceEntityRepresentation $resource
+ */
+
+// A simple block to do something not possible with default blocks.
+
+$plugins = $this->getHelperPluginManager();
+$translate = $plugins->get('translate');
+$escape = $this->plugin('escapeHtml');
+$itemMedia = $item->media();
+$useUniversalViewer = true;
+foreach ($item->primaryMedia() as $media) {
+    $mediaType = $media->mediaType();
+    $mediaRenderer = $media->renderer();
+    if (strpos($mediaType, 'image/') === false
+        && (strpos($mediaType, 'audio/') === false   
+        && $mediaType !== 'application/pdf' 
+        && $mediaRenderer !== 'iiif'
+    )) {
+       $useUniversalViewer = false;
+       break;
+    }
+}
+?>
+
+<div class="block resource-block block-simple">
+    <?= $translate('Simple block to customize in theme') ?>
+    <?php if ($useUniversalViewer): ?>
+        <?php echo $this->universalViewer($item); ?>
+    <?php endif; ?>
+
+    <?php if (!$useUniversalViewer): ?>
+        <?php if ($itemMedia): ?>
+            <div class="media-embeds">
+            <?php foreach ($itemMedia as $media):
+                echo $media->render();
+            endforeach;
+            ?>
+            </div>
+        <?php endif; ?>
+    <?php endif; ?>
+</div>
