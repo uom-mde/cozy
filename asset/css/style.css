@@ -1627,6 +1627,7 @@
         background: white;
         z-index: 1000;
         z-index: 2000;
+        font-style: normal!important;
     }
     figcaption.botLeft {
         left: -3px;
